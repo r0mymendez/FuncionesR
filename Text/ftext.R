@@ -5,4 +5,5 @@ SacarAcentos=function(palabra){
   palabra=gsub('í','i',palabra)
   palabra=gsub('ó','o',palabra)
   palabra=gsub('ú','u',palabra)
+  return(palabra)
 }
